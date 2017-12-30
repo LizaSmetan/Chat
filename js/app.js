@@ -1,5 +1,7 @@
 let enterModal = new Modal('#enter-modal');
 
+let loader = document.getElementById('loading');
+
 let chat = new Chat();
 
 let enterForm = document.forms['enter-form'];

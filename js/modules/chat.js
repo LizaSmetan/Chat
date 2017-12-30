@@ -48,6 +48,7 @@ class Chat {
             .then(chat.getUsers)
             .then(chat.renderUsers)
             .then(chat.setEvents)
+            .then(loader.classList.add('hide'))
             .catch ( error => console.error(error))
     }
     getUsers(){
